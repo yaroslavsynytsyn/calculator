@@ -115,6 +115,7 @@ class ViewController: UIViewController {
     
     @IBAction func squareRootButtonPressed(_ sender: UIButton) {
         currentInput = sqrt(currentInput)
+        currentInput = 0/0
     }
     
     @IBAction func dopButtonPress(_ sender: UIButton) {
